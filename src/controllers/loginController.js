@@ -18,7 +18,7 @@ const userLogin = async (req, res) => {
     } else {
       res.status(400).send({
         status: 400,
-        message: "Please give valid credentials.",
+        message: "User not found, Please signup.",
       });
     }
   } catch (error) {
